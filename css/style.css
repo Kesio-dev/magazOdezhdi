@@ -262,18 +262,18 @@ a {
 }
 
 /* Дескриптион */
-.obuv-info {
+.xar-info {
   width: 90%;
   margin: 0 auto;
 }
 
-.img__obuv-info {
+.img__xar-info {
 	width: 40%;
 	height: 40%;
   margin: 130px 0px 0px 0px;
 }
 
-.obuv-info {
+.xar-info {
   display: flex;
   justify-content: space-between;
 }
@@ -290,6 +290,75 @@ a {
   max-width: 30vw;
 }
 
-.title-des {
+/* Корзина */
 
+.korzina {
+	margin: 0 auto;
+	margin-top: 10vh;
+	width: 90vw;
+	height: 50vh;
+	background-color: #F4F4F4;
+	border-radius: 5vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.korzina__wrapper {
+	margin-top: 3vh;
+	margin-left: 4vw;
+	width: 82vw;
+	height: 9vh;
+	background-color: #EAEAEA;
+	border-radius: 5vh;
+
+	display: flex;
+	justify-content: space-between;
+}
+
+.title-kor {
+	margin-left: 2vw;
+	margin-top: 1vh;
+	font-size: 22px;
+	font-weight: 500;
+}
+
+.price-kor {
+	margin-left: 2vw;
+	font-size: 14px;
+}
+
+.delete {
+	width: 22px;
+	margin-right: 1.5vw;
+	cursor: pointer;
+}
+
+.pay {
+	border: none;
+	outline: none;
+
+	background-color: #10DE7B;
+	width: 8vw;
+	height: 5vh;
+	border-radius: 25px;
+	font-weight: 600;
+	font-size: 15px;
+
+	margin-left: 65vw;
+	margin-top: 2vh;
+
+	cursor: pointer;
+}
+
+.total {
+	display: flex;
+	align-items: center;
+}
+
+.some {
+	display: flex;
+	justify-content: space-between;
+	max-width: 85vw;
+	margin: 0 auto;
+	margin-top: 3vh;
 }
