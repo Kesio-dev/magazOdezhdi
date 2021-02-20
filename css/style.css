@@ -1,0 +1,295 @@
+body {
+	background-color: #FFF;
+	font-family: 'Quicksand', sans-serif; /* Подключаю шрифты */
+	padding: 0;
+	margin: 0;
+}
+h3 {
+	margin: 0;
+	padding: 0;
+}
+
+
+.hr-big {
+	max-width: 80%;
+	margin-top: 5vh;
+}
+
+.hr-small {
+	max-width: 70%;
+	margin-top: 5vh;
+}
+
+/* HEADER */
+.logo {
+	width: 55px; /* Ширина картинки */
+	height: 40px; /* Высота картинки */
+}
+
+.cart {
+	width: 30px; /* Ширина картинки */
+	height: 25px; /* Высота картинки */
+}
+
+.navbar {
+	max-width: 90vw; /* Контент может занимать только 90% всей ширины сайта */
+	margin: 0 auto; /* Выравнивае по центру, делает сверху снизу по 0 отступ, а справа и слева одинаковую */
+	margin-top: 7vh; /* Делаю отступ сверху как было в дизайне */
+}
+
+.navbar {
+	display: flex; /* Нужно для штуки снизу :D */
+	justify-content: space-between; /* Раскидывает все, что внутри по разным сторонам по оси X */
+	align-items: center; /* Делает по центру относительно оси Х */
+}
+
+.nav a {
+	text-decoration: none; /* Убирает подчеркивание */
+	color: #000; /* Цвет текста */
+	font-weight: 500; /* 500 - Medium, это жирность шрифта */
+	margin-left: 4vw; /* Двигаю все от себя по 4% на лево */
+	font-size: 18px;
+}
+
+.header__title {
+	margin: 0 auto; /* Выравнивая по центру */
+	margin-top: 18vh; /* Опускаю так вниз на 18% от навбара */
+	text-align: center; /* Центрирование текста */
+	font-weight: 700; /* Жирность шрифта */
+	font-size: 60px; /* Размер шрифта */
+}
+
+.header__subtitle {
+	max-width: 40vw; /* Максимальная длина его это 40% от всего экрана */
+	margin: 0 auto; /* Центрирование всего */
+	text-align: center; /* Центрирование текста */
+	font-weight: 500; /* Жирность шрифта */
+	font-size: 20px; /* Размер шрифта */
+}
+
+.arrow {
+	width: 35px; /* Высота фотки */
+	height: 25px; /* Ширина фотки */
+	margin-top: 35vh; /* Отдоляю на 35% от тайтла */
+	margin-left: 47vw; /* отдоляюсь от стен сайта на 47%, т.е по середине */
+}
+
+/* GENDER */
+
+.block {
+	width: 100%;
+	height: 5vh;
+	margin-top: 5vh;
+}
+
+.title {
+	margin-left: 41vw; /* отдоляюсь от стен сайта на 41%, т.е по середине */
+}
+
+/*	PRODUCT */
+.Outerwear {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 85vw;
+	margin: 0 auto;
+}
+
+.title-wooman {
+	font-size: 40px;
+	font-weight: 500;
+	margin-top: 10vh;
+	margin-left: 10vw; /* отдоляюсь от стен сайта на 41%, т.е по середине */
+}
+
+.product {
+	margin: 0 1vw;
+	margin-top: 3vh;
+}
+
+.title__product {
+	margin-top: 5px;
+}
+.Footwear {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 85vw;
+	margin: 0 auto;
+}
+
+.product-footware {
+	margin: 0 1.5vw;
+	margin-top: 3vh;
+}
+
+/* FEEDBACK */
+
+.Feedback {
+	max-width: 500px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.Feedback div {
+	font-size: 60px;
+	font-weight: 400;
+}
+
+/* FOOTER */
+footer {
+	background-color: #F9F9F9;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	max-width: 84%;
+	font-weight: 500;
+	margin-top: 100px;
+}
+
+.links-ft {
+	font-size: 15px;
+	color: #000;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 3vh;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+.link-ft {
+	line-height: 30px;
+}
+
+.link-items {
+	max-width: 80px;
+	padding-top: 20px;
+}
+
+.title-ft, .link-items {
+	margin: 0 25px;
+}
+
+.title-ft {
+	font-weight: 300;
+}
+
+.adress-ft {
+	display: flex;
+	align-items: center;
+}
+
+.img-ft {
+	width: 30px;
+	height: 30px;
+}
+
+.title-ft {
+	font-size: 16px;
+	color: #000;
+	font-weight: 400;
+	margin-left: 8px;
+}
+
+.about-ft {
+	margin-right: 50px;
+	margin-top: 3vh;
+}
+
+.number-ft {
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.social-img {
+	margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+/* KNOPKI */
+
+.choice {
+  display: flex;
+}
+.choice input[type=radio] {
+   position: absolute;
+   left: -99999px;
+}
+.choice span {
+  display: block;
+  padding: 0.2em 1em;
+  border: 1px solid #e1e0de;
+  margin-right: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.1s;
+  margin-top: 80px;
+}
+.choice input[type=radio]:checked + span {
+  border: 2px solid red;
+  border-color: red;
+  background: white;
+}
+
+.btn {
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 30px;
+  background-color: #838383;
+  transition: 0.1s;
+
+  padding: 10px 50px; 
+
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background-color: #5379FF;
+}
+
+/* Дескриптион */
+.obuv-info {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.img__obuv-info {
+	width: 40%;
+	height: 40%;
+  margin: 130px 0px 0px 0px;
+}
+
+.obuv-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  margin: 100px 10px 0px 0px;
+}
+
+.article {
+  color: #929292;
+}
+
+.description h4 {
+  max-width: 30vw;
+}
+
+.title-des {
+
+}
