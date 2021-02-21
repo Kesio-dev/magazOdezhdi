@@ -1,23 +1,23 @@
 body {
 	background-color: #FFF;
 	font-family: 'Quicksand', sans-serif; /* Подключаю шрифты */
-	padding: 0;
-	margin: 0;
+	padding: 0; /* Убираю стили */
+	margin: 0; /* Убираю стили */
 }
 h3 {
-	margin: 0;
-	padding: 0;
+	margin: 0; /* Убираю стили */
+	padding: 0; /* Убираю стили */
 }
 
 
 .hr-big {
-	max-width: 80%;
-	margin-top: 5vh;
+	max-width: 80%; /* Делаю длинную палку */
+	margin-top: 5vh; /* Отступ сверху */
 }
 
 .hr-small {
-	max-width: 70%;
-	margin-top: 5vh;
+	max-width: 70%; /* Длина маленькой палки */
+	margin-top: 5vh; /* Отступ сверху */
 }
 
 /* HEADER */
@@ -74,12 +74,12 @@ h3 {
 	margin-left: 47vw; /* отдоляюсь от стен сайта на 47%, т.е по середине */
 }
 
-/* GENDER */
+/* BLOCK */
 
 .block {
-	width: 100%;
-	height: 5vh;
-	margin-top: 5vh;
+	width: 100%; /* растянгивает на всю ширину */
+	height: 5vh; /* Высота 5% относительно высоты экрана пользователя */
+	margin-top: 5vh; /* Вверхний отступ на 5% относительно высоты экрана пользователя */
 }
 
 .title {
@@ -88,127 +88,113 @@ h3 {
 
 /*	PRODUCT */
 .Outerwear {
-	display: flex;
-	flex-wrap: wrap;
-	max-width: 85vw;
-	margin: 0 auto;
+	display: flex; /* Нужно для штук снизу */
+	flex-wrap: wrap; /* Если не хватает места для другой одежды он кидает его на след строку */
+	max-width: 85vw; /* максимальное место которое он может занимать */
+	margin: 0 auto; /* Выравнивает блок по центру */
 }
 
 .title-wooman {
-	font-size: 40px;
-	font-weight: 500;
-	margin-top: 10vh;
-	margin-left: 10vw; /* отдоляюсь от стен сайта на 41%, т.е по середине */
+	font-size: 40px; /* Размер шрифта */ 
+	font-weight: 500; /* Жирность шрифта */
+	margin-top: 10vh; /* Вверхний отступ на 10% относительно высоты экрана пользователя */
+	margin-left: 10vw; /* Боковой отступ на 10% относительно ширины экрана пользователя */
 }
 
 .product {
-	margin: 0 1vw;
-	margin-top: 3vh;
+	margin: 0 1vw; /* это, что-бы товары не слеплялись вместе */
+	margin-top: 3vh; /* Так же, что бы не слеплялись но уже сверху */
 }
 
 .title__product {
-	margin-top: 5px;
+	margin-top: 5px; /* Отступ сверху */
 }
 .Footwear {
-	display: flex;
-	flex-wrap: wrap;
-	max-width: 85vw;
-	margin: 0 auto;
+	display: flex; /* Нужно для штуки снизу */
+	flex-wrap: wrap; /* Кидает все на след строку если нету места */
+	max-width: 85vw; /* Максимальное пространство которое может занять */
+	margin: 0 auto; /* Выранвивает по центру */
 }
 
 .product-footware {
-	margin: 0 1.5vw;
-	margin-top: 3vh;
-}
-
-/* FEEDBACK */
-
-.Feedback {
-	max-width: 500px;
-	margin: 0 auto;
-	display: flex;
-	flex-direction: column;
-}
-
-.Feedback div {
-	font-size: 60px;
-	font-weight: 400;
+	margin: 0 1.5vw; /* Отступы по бокам */
+	margin-top: 3vh; /* Отступ сверху */
 }
 
 /* FOOTER */
 footer {
-	background-color: #F9F9F9;
+	background-color: #F9F9F9; /* Цвет футера */
 }
 
 .footer {
-	display: flex;
-	justify-content: space-between;
-	margin: 0 auto;
-	max-width: 84%;
-	font-weight: 500;
-	margin-top: 100px;
+	display: flex; /* Нужно для штуки снизу */
+	justify-content: space-between; /* Раскидывает все по разным сторонам */
+	margin: 0 auto; /* Делает блок по центру */
+	max-width: 84%; /* Максимальная область его заполнения */
+	font-weight: 500; /* Жирность шрифта */
+	margin-top: 100px; /* Отступ сверху */
 }
 
 .links-ft {
-	font-size: 15px;
-	color: #000;
-	display: flex;
-	justify-content: space-between;
-	margin-top: 3vh;
+	font-size: 15px; /* Размер шрифта */
+	color: #000; /* Цвет шрифта */
+	display: flex; /* Нужно для штуки снизу */
+	justify-content: space-between; /* Раскидывает все по разным сторонам на одинковое растояние */
+	margin-top: 3vh; /* отступ сверху */
 }
 
 a {
-	text-decoration: none;
-	color: #000;
+	text-decoration: none; /* убираю обводку от ссылок */
+	color: #000; /* Цвет шрифта */
 }
 
 .link-ft {
-	line-height: 30px;
+	line-height: 30px; /* Устанавливает интерлиньяж (межстрочный интервал) */
 }
 
 .link-items {
-	max-width: 80px;
-	padding-top: 20px;
+	max-width: 80px; /* Максимальная область работы */
+	padding-top: 20px; /* Делает больше на 20пикселей блок */
 }
 
 .title-ft, .link-items {
-	margin: 0 25px;
+	margin: 0 25px; /* отступы по 25пикселей по бокам */
 }
 
 .title-ft {
-	font-weight: 300;
+	font-weight: 300; /* Жирность шрифта */
 }
 
 .adress-ft {
-	display: flex;
-	align-items: center;
+	display: flex; /* Нужно для штуки снизу */
+	align-items: center; /* выравнивает flex-элементы текущей flex-линии */
 }
 
 .img-ft {
-	width: 30px;
-	height: 30px;
+	width: 30px; /* Ширина */
+	height: 30px; /* Высота */
 }
 
 .title-ft {
-	font-size: 16px;
-	color: #000;
-	font-weight: 400;
-	margin-left: 8px;
+	font-size: 16px; /* Размер шрифта */
+	color: #000; /* Цвет шрифта */
+	font-weight: 400; /* жирность */
+	margin-left: 8px; /* Отступ слева */
 }
 
 .about-ft {
-	margin-right: 50px;
-	margin-top: 3vh;
+	margin-right: 50px; /* оступ справа */
+	margin-top: 3vh; /* отступ сверху */
 }
 
 .number-ft {
-	display: flex;
-	align-items: center;
-	margin-top: 20px;
+	display: flex; /* Нужно для штуки снизу */
+	align-items: center; /* выравнивает flex-элементы текущей flex-линии */
+	margin-top: 20px; /* Отступ сверху */
 }
 
 .social-img {
-	margin-top: 30px;
+	margin-top: 30px; /* Отступ сверху */
 }
 
 
@@ -221,144 +207,144 @@ a {
 /* KNOPKI */
 
 .choice {
-  display: flex;
+  display: flex; /* Нужно для штук снизу */
 }
 .choice input[type=radio] {
-   position: absolute;
-   left: -99999px;
+   position: absolute; /* Нужно для штуки снизу */
+   left: -99999px; /* Трудно обьеснить */
 }
 .choice span {
-  display: block;
-  padding: 0.2em 1em;
-  border: 1px solid #e1e0de;
-  margin-right: 15px;
-  cursor: pointer;
-  border-radius: 5px;
-  transition: 0.1s;
-  margin-top: 80px;
+  display: block; /* Нужно для штук снизу */
+  padding: 0.2em 1em; /* Внутриние отспупы */
+  border: 1px solid #e1e0de; /* Обводка */
+  margin-right: 15px; /* отступ справа */
+  cursor: pointer; /* При наводке курсор становиться поинтер */
+  border-radius: 5px; /*  Закругление */
+  transition: 0.1s; /* Анимация плавности */
+  margin-top: 80px; /* Отступ сверху */
 }
 .choice input[type=radio]:checked + span {
-  border: 2px solid red;
-  border-color: red;
-  background: white;
+  border: 2px solid red; /* Обводка */
+  border-color: red; /* Цвет */
+  background: white; /* белый цвет */
 }
 
 .btn {
-  border-radius: 10px;
-  border: none;
-  outline: none;
-  color: #fff;
-  font-size: 30px;
-  background-color: #838383;
-  transition: 0.1s;
+  border-radius: 10px; /* округление */
+  border: none; /* Убирает стили кнопки обычной */
+  outline: none; /* Убирает стили кнопки обычной */
+  color: #fff; /* Цвет */
+  font-size: 30px; /* Размер */
+  background-color: #838383; /* Цвет фона */
+  transition: 0.1s; /* Анимация */
 
-  padding: 10px 50px; 
+  padding: 10px 50px;  /* Внутриние оступы */
 
-  margin-top: 20px;
+  margin-top: 20px; /* Отступ сверху */
 }
 
 .btn:hover {
-  background-color: #5379FF;
+  background-color: #5379FF; /* При наводке меняет цвет */
 }
 
 /* Дескриптион */
 .xar-info {
-  width: 90%;
-  margin: 0 auto;
+  width: 90%; /* Макс размер */
+  margin: 0 auto; /* Выравнивает по центру */
 }
 
 .img__xar-info {
-	width: 40%;
-	height: 40%;
-  margin: 130px 0px 0px 0px;
+	width: 40%; /* Размер фотки */
+	height: 40%; /* Размер фотки */
+  	margin: 130px 0px 0px 0px; /* отступ сверху */
 }
 
 .xar-info {
-  display: flex;
-  justify-content: space-between;
+  display: flex; /* Нужно для штуки ниже */
+  justify-content: space-between; /* Раскидывает по разным сторонам */
 }
 
 .info {
-  margin: 100px 10px 0px 0px;
+  margin: 100px 10px 0px 0px; /* Отступы сверху и справа */
 }
 
 .article {
-  color: #929292;
+  color: #929292; /* Цвет текста */
 }
 
 .description h4 {
-  max-width: 30vw;
+  max-width: 30vw; /* Максимальная область текста */
 }
 
 /* Корзина */
 
 .korzina {
-	margin: 0 auto;
-	margin-top: 10vh;
-	width: 90vw;
-	height: 50vh;
-	background-color: #F4F4F4;
-	border-radius: 5vh;
-	display: flex;
-	flex-direction: column;
+	margin: 0 auto; /* Выравнивает по центру */
+	margin-top: 10vh; /* Отступ сверху */
+	width: 90vw; /* ширина */
+	height: 50vh; /* Высота */
+	background-color: #F4F4F4; /* цвет фона */
+	border-radius: 5vh; /* Округление */
+	display: flex; /* Нужно для штуки снизу */
+	flex-direction: column; /* Делает все в колонку */
 }
 
 .korzina__wrapper {
-	margin-top: 3vh;
-	margin-left: 4vw;
-	width: 82vw;
-	height: 9vh;
-	background-color: #EAEAEA;
-	border-radius: 5vh;
+	margin-top: 3vh; /* Отступ сверху */
+	margin-left: 4vw; /* Отступ слево */
+	width: 82vw; /* Ширина */
+	height: 9vh; /* Высота */
+	background-color: #EAEAEA; /* Цвет фона */
+	border-radius: 5vh; /* Округление */
 
-	display: flex;
-	justify-content: space-between;
+	display: flex; /* Нужно для штуки снизу */
+	justify-content: space-between; /* Раскидывает все по сторонам */
 }
 
 .title-kor {
-	margin-left: 2vw;
-	margin-top: 1vh;
-	font-size: 22px;
-	font-weight: 500;
+	margin-left: 2vw; /* Отступ слева */
+	margin-top: 1vh; /* Оступ сверху */
+	font-size: 22px; /* Размер текста */
+	font-weight: 500; /* Жирность шрифта */
 }
 
 .price-kor {
-	margin-left: 2vw;
-	font-size: 14px;
+	margin-left: 2vw; /* Отступ слева */
+	font-size: 14px; /* Размер шрифта */
 }
 
 .delete {
-	width: 22px;
-	margin-right: 1.5vw;
-	cursor: pointer;
+	width: 22px; /* Ширина */
+	margin-right: 1.5vw; /* Отступ справа */
+	cursor: pointer; /* При наводке курсор меняется на выбор */
 }
 
 .pay {
-	border: none;
-	outline: none;
+	border: none; /* Убирание стилей у кнопки */
+	outline: none; /* Убирание стилей у кнопки */
 
-	background-color: #10DE7B;
-	width: 8vw;
-	height: 5vh;
-	border-radius: 25px;
-	font-weight: 600;
-	font-size: 15px;
+	background-color: #10DE7B; /* Цвет фона */
+	width: 8vw; /* Ширина */
+	height: 5vh; /* Высота */
+	border-radius: 25px; /* Округление */
+	font-weight: 600; /* Жирность */
+	font-size: 15px; /* размер текста */
 
-	margin-left: 65vw;
-	margin-top: 2vh;
+	margin-left: 65vw; /* Отступ слева */
+	margin-top: 2vh; /* Отступ сверху */
 
-	cursor: pointer;
+	cursor: pointer; /* При наводке курсор меняется на выбор */
 }
 
 .total {
-	display: flex;
-	align-items: center;
+	display: flex; /* Нужно для штуки снизу */
+	align-items: center; /* выравнивает flex-элементы текущей flex-линии */
 }
 
 .some {
-	display: flex;
-	justify-content: space-between;
-	max-width: 85vw;
-	margin: 0 auto;
-	margin-top: 3vh;
+	display: flex; /* Нужно для штуки снизу */
+	justify-content: space-between; /* Раскидывает по сторонам */
+	max-width: 85vw; /* макс область работы */
+	margin: 0 auto; /* Выравнивает по центру */
+	margin-top: 3vh; /* Отступ сверху */
 }
